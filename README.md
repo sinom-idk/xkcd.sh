@@ -1,5 +1,5 @@
-<img src="screenshots/xkcd-demo-1.png" alt="xkcd.sh -l" align="bottom" height="240px">
-<img src="screenshots/xkcd-demo-2.png" alt="xkcd.sh -l" align="right" height="240px">
+<img src="screenshots/xkcd-demo-1.png" alt="xkcd.sh -l">
+<img src="screenshots/xkcd-demo-2.png" alt="xkcd.sh -l" align="right">
 All credit goes to [XKCD](https://xkcd.com)
 
 Flags:
