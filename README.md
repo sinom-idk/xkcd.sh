@@ -14,7 +14,7 @@ All credit goes to [xkcd](https://xkcd.com/)
 - jq
 - timg
 
-<img src="screenshots/xkcd-demo-2.png" alt="xkcd.sh -l" align="right" height="240px">
+<img src="screenshots/xkcd-demo-2.png" alt="xkcd.sh -l" align="right" width="400px">
 
 <img src="screenshots/xkcd-demo-1.png" alt="xkcd.sh -n 2501" width="400px">
 
