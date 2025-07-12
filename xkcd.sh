@@ -11,7 +11,7 @@
 #
 # Usage:
 #   ./xkcd.sh -l         # latest comic
-#   ./xkcd.sh -n 1234    # specific comic
+#   ./xkcd.sh -n xyzt    # specific comic
 #   ./xkcd.sh -r         # random comic
 #   ./xkcd.sh -h         # help
 #
@@ -32,7 +32,7 @@ n_flag=''
 # Help
 print_usage() {
   echo "-l for latest"
-  echo "-n [number] for a specific comic"
+  echo "-n xyzt for a specific comic"
   echo "-r for random"
   echo "-h for help"
   echo "requires timg and jq :/"

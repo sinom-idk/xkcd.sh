@@ -4,7 +4,7 @@ All credit goes to [xkcd](https://xkcd.com/)
 ## Flags:
 
 - '-l' for the latest comic
-- '-n' 1234 for a specific comic
+- '-n' xyzt for a specific comic
 - '-r' for a random comic
 - '-h' for help
 
