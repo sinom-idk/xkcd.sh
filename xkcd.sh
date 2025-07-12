@@ -22,11 +22,6 @@
 if ! command -v curl jq timg >/dev/null 2>&1 ; then
   echo "Dependencies required are curl, jq and timg"
 fi
-# for cmd in curl jq timg; do
-#   command -v "$cmd" >/dev/null 2>&1 || {
-#     echo >&2 "Error: $cmd is not installed."; exit 1;
-#   }
-# done
 
 # Flags
 l_flag=''
@@ -84,8 +79,6 @@ year=$(echo "$json" | jq -r .year)
 img_url=$(echo "$json" | jq -r .img)
 alt=$(echo "$json" | jq -r .alt)
 
-# echo "${img_url}"
-# echo "$json"
 
 echo "$title ($number)"
 timg "$img_url"
