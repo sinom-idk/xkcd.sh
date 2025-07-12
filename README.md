@@ -14,6 +14,10 @@ All credit goes to [xkcd](https://xkcd.com/)
 - jq
 - timg
 
+## Installation:
+- just download the script lol
+- make an alias in your .bashrc if you want
+
 <img src="screenshots/xkcdsh-n.png" alt="xkcd.sh -n" align="right" width="400px">
 
 
