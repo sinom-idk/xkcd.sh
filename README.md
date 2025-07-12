@@ -1,5 +1,4 @@
-<img src="screenshots/xkcd-demo-1.png" alt="xkcd.sh -l">
-<img src="screenshots/xkcd-demo-2.png" alt="xkcd.sh -l" align="right">
+<img src="screenshots/xkcd-demo-2.png" alt="xkcd.sh -l" align="right" height="240px">
 All credit goes to [XKCD](https://xkcd.com)
 
 Flags:
@@ -12,3 +11,6 @@ Depencies:
     curl
     jq
     timg
+
+<img src="screenshots/xkcd-demo-1.png" alt="xkcd.sh -l">
+
