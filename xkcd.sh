@@ -19,10 +19,8 @@
 #   All content belongs to XKCD (https://xkcd.com)
 
 # Check Dependencies
-if command -v curl jq timg >/dev/null 2>&1 ; then
-    echo "Dependencies found"
-else
-    echo "Dependencies required are curl, jq and timg"
+if ! command -v curl jq timg >/dev/null 2>&1 ; then
+  echo "Dependencies required are curl, jq and timg"
 fi
 # for cmd in curl jq timg; do
 #   command -v "$cmd" >/dev/null 2>&1 || {
@@ -93,4 +91,4 @@ echo "$title ($number)"
 timg "$img_url"
 echo "$alt"
 echo "$day/$month/$year"
-
+echo "source: $url"
